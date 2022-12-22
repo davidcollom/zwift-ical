@@ -19,9 +19,12 @@ GEM
     prometheus_exporter (0.5.1)
     puma (4.3.3)
       nio4r (~> 2.0)
-    rack (2.2.2)
+    rack (2.2.4)
     rack-protection (2.0.8.1)
       rack
+    redis (4.8.0)
+    redis-store (1.9.1)
+      redis (>= 4, < 5)
     ruby2_keywords (0.0.2)
     sinatra (2.0.8.1)
       mustermann (~> 1.0)
@@ -41,6 +44,7 @@ DEPENDENCIES
   lightly
   prometheus_exporter
   puma
+  redis-store
   sinatra
   tzinfo
 
