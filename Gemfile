@@ -1,17 +1,19 @@
 source 'https://rubygems.org'
 
-# gem 'prometheus-client'
-gem 'prometheus_exporter'
+ruby '2.6.10'
 
-gem 'sinatra'
-# gem 'sinatra-advanced-routes', :require => 'sinatra/advanced_routes'
-# Caching engines
-gem 'lightly', group: [:development]
-gem 'redis-store'
+gem "middleman"
+# gem "middleman-minify-html"
+gem "middleman-dotenv"
+gem 'middleman-pry'
+# gem 'middleman-robots'
 
-gem 'puma'
+gem 'middleman-data_source'
 
-
-gem 'httparty'
+# gem 'httparty'
+# gem 'nokogiri'
 gem 'icalendar'
 gem 'tzinfo'
+
+
+gem 'pry', group: [:development]

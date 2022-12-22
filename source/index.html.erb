@@ -1,0 +1,15 @@
+<html>
+<head>
+</head>
+<body>
+<h1>Zwift iCalendar</h1>
+<p>This site is a static generator for Zwift events to import directly into anything that supports ical format</p>
+<div>
+<ul>
+<% sitemap.resources(false).uniq{|p| p.destination_path}.each do |p| %>
+<li><%=link_to p.destination_path, p.destination_path %></li>
+<% end%>
+</ul>
+</div>
+</body>
+</html>

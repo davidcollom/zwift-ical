@@ -1,27 +1,22 @@
-require 'httparty'
 require 'icalendar'
 require 'icalendar/tzinfo'
 
 class ZwiftCal
-  include ::HTTParty
 
-  base_uri 'https://us-or-rly101.zwift.com/api/public/events'
-  format :json
-  headers 'Content-Type' => 'application/json'
-  logger ::Logger.new STDOUT, :debug, :curl
-
-  WORLDS = ['Watopia', 'Richmond', 'London', 'New York', 'Innsbuck', 'Bologna TT', 'Yorkshire', 'Crit City', 'France', 'Paris'].freeze
+  WORLDS = [
+    'Watopia',
+    'Richmond',
+    'London',
+    'New York',
+    'Innsbuck',
+    'Bologna TT',
+    'Yorkshire',
+    'Crit City',
+    'France',
+    'Paris'
+  ].freeze
 
   TIMEZONE = "UTC" # Nasty hack to force UTC
-
-  class << self
-    def events(limit: 200, tag: "", options: {})
-      build_query = {tags: tag, limit: limit}
-      options.merge!( {query: build_query} )
-      puts "Fetching Events...#{options}"
-      self.get("/upcoming", options )
-    end
-  end
 
   def initialize(events)
     @cal = Icalendar::Calendar.new
@@ -62,11 +57,11 @@ class ZwiftCal
   def calculate_end(event)
     # If event is duration or distance related
     if event['durationInSeconds'] == 0
-      puts "Assuming #{event['name']} is 1 hour long [#{event['durationInSeconds']}]"
+      # puts "Assuming #{event['name']} is 1 hour long [#{event['durationInSeconds']}]"
       DateTime.parse( event['eventStart'] ).to_time + 3600 # Assume ~1 hour
     else
       # Add duration to event start
-      puts "#{event['name']} is #{event['durationInSeconds']} seconds long"
+      # puts "#{event['name']} is #{event['durationInSeconds']} seconds long"
       (DateTime.parse( event['eventStart'] ).to_time) + event['durationInSeconds']
     end
   end
