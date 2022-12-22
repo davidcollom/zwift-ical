@@ -54,7 +54,8 @@ sports.each do |sport|
     proxy "/#{sport}/races", "ical", locals: {e: ZwiftCal.new(sport_events.select{|e| e['eventType'] == 'RACE' } ) }
 
     # Get all Unique Tags
-    sport_events.collect{|e| e['tags']}.flatten.select{|t| !t.include?('=') }.sort.uniq do |t|
+    # pry sport_events
+    sport_events.collect{|e| e['tags']}.flatten.select{|t| !t.include?('=') }.sort.uniq.each do |t|
         proxy "/#{sport}/tag/#{t}", "ical", locals: {e: ZwiftCal.new(sport_events.select{|e| e['tags'].include?(t)} ) }
     end
 end
