@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.6.10'
+
 gem "middleman"
 # gem "middleman-minify-html"
 gem "middleman-dotenv"
