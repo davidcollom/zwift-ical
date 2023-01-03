@@ -1,7 +1,17 @@
+require 'httparty'
+require 'retries'
+require 'zache'
 require 'icalendar'
 require 'icalendar/tzinfo'
 
 class ZwiftCal
+  include ::HTTParty
+
+  base_uri 'https://us-or-rly101.zwift.com/api/public/events'
+  format :json
+  headers 'Content-Type' => 'application/json'
+  logger ::Logger.new STDOUT, :debug, :curl
+
 
   WORLDS = [
     'Watopia',
@@ -13,10 +23,26 @@ class ZwiftCal
     'Yorkshire',
     'Crit City',
     'France',
-    'Paris'
+    'Paris',
+    'Makuri Islands'
   ].freeze
 
   TIMEZONE = "UTC" # Nasty hack to force UTC
+
+  @@cache = Zache.new()
+
+  class << self
+    def events(limit: 200, tag: "", options: {})
+      build_query = {tags: tag, limit: limit}
+      options.merge!( {query: build_query} )
+      @@cache.get(options.to_s) do
+        puts "Fetching Events...#{options}"
+        with_retries(:max_tries => 10, :base_sleep_seconds => 0.1, :max_sleep_seconds => 2.0) do
+          self.get("/upcoming", options )
+        end
+      end
+    end
+  end
 
   def initialize(events)
     @cal = Icalendar::Calendar.new

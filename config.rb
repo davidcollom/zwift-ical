@@ -32,31 +32,27 @@ set :file_watcher_ignore,[
     /^tmp\//
   ]
 
+# binding.pry
 
-activate :data_source do |c|
-    c.root  = "https://us-or-rly101.zwift.com/api/public/events"
-    c.sources = [
-        {
-          alias: "events",
-          path: "/upcoming",
-          type: :json
-        }
-      ]
-end
-
-sports = @app.data.events.collect{|e| e['sport'].downcase }.uniq
+main_events = ZwiftCal.events()
+sports = main_events.collect{|e| e['sport'].downcase }.sort.uniq
 
 sports.each do |sport|
-    sport_events = @app.data.events.select{|e| e['sport']==sport.upcase}
+    sport_events = main_events.select{|e| e['sport']==sport.upcase}
 
     proxy "/#{sport}/rides", "ical", locals: {e: ZwiftCal.new(sport_events.select{|e| e['eventType'] == 'GROUP_RIDE'} ) }
     proxy "/#{sport}/workouts", "ical", locals: {e: ZwiftCal.new(sport_events.select{|e| e['eventType'] == 'GROUP_WORKOUT' } ) }
-    proxy "/#{sport}/races", "ical", locals: {e: ZwiftCal.new(sport_events.select{|e| e['eventType'] == 'RACE' } ) }
+    race_events = sport_events.select{|e| e['eventType'] == 'RACE' }
+    proxy "/#{sport}/races", "ical", locals: {e: ZwiftCal.new(race_events) }
+    # [A..E].do |klass|
+    #   proxy "/#{sport}/races/#{klass}", "ical", locals: {e: ZwiftCal.new(race_events.select{|e| e['eventSubgroups'].include? 'RACE' } ) }
+    # end
 
     # Get all Unique Tags
-    # pry sport_events
-    sport_events.collect{|e| e['tags']}.flatten.select{|t| !t.include?('=') }.sort.uniq.each do |t|
-        proxy "/#{sport}/tag/#{t}", "ical", locals: {e: ZwiftCal.new(sport_events.select{|e| e['tags'].include?(t)} ) }
+    sport_events.collect{|e| e['tags']}.flatten.select{|t| !t.include?('=') }.sort.uniq.each do |tag|
+        tag_events = (ZwiftCal.events(tag: tag)||[]).select{|e| e['sport'] == sport.upcase}
+        puts "#{sport.upcase}: Found #{tag_events.length} Events for #{tag}"
+        proxy "/#{sport}/tag/#{tag}", "ical", locals: {e: ZwiftCal.new(tag_events) }
     end
 end
 

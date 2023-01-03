@@ -8,9 +8,10 @@ gem "middleman-dotenv"
 gem 'middleman-pry'
 # gem 'middleman-robots'
 
-gem 'middleman-data_source'
+gem 'httparty'
+gem 'retries'
+gem 'zache'
 
-# gem 'httparty'
 # gem 'nokogiri'
 gem 'icalendar'
 gem 'tzinfo'
