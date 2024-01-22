@@ -26,5 +26,4 @@ jobs:
           commit_user_name: David Collom [Auto]
           commit_user_email: david@collom.co.uk
           file_pattern: ".metadata"
-          branch: "${GITHUB_RUN_ID}"
           skip_checkout: true
