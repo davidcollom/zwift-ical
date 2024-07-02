@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
-ruby '3.2.4'
+ruby '3.1.6'
 
 gem "middleman"
 # gem "middleman-minify-html"
 gem "middleman-dotenv"
-gem 'middleman-pry'
+gem 'middleman-pry', group: [:development]
 # gem 'middleman-robots'
 
 gem 'httparty'
