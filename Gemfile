@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.6.10'
+ruby '3.2.4'
 
 gem "middleman"
 # gem "middleman-minify-html"
