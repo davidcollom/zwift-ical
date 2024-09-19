@@ -26,7 +26,7 @@ jobs:
       with:
         bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-    - uses: actions/cache@v3
+    - uses: actions/cache@v4
       id: cache-build
       with:
         path: build/
