@@ -1,4 +1,4 @@
-FROM ruby:3.1.6
+FROM ruby:3.3.5
 ARG VERSION=develop
 
 RUN gem install bundler
