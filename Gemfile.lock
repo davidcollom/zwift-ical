@@ -48,7 +48,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    icalendar (2.11.1)
+    icalendar (2.11.2)
       base64
       ice_cube (~> 0.16)
       logger
@@ -105,7 +105,7 @@ GEM
     minitest (5.25.5)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
-    ostruct (0.6.1)
+    ostruct (0.6.2)
     padrino-helpers (0.15.3)
       i18n (>= 0.6.7, < 2)
       padrino-support (= 0.15.3)
