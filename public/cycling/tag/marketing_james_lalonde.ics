@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117394
+SUMMARY:[Innsbuck] Restart Esports - Thursday Thumper
+LOCATION:Innsbuck
+DESCRIPTION:Restart Esports - instagram.com/restart.esports\n\n1. Heart
+  Rate Monitor (HRM) is mandatory for all participants.\n\n2. Power Source
+  is Mandatory for all racers. A smart trainer or smart bike should be your
+  power source where possible. ZPower is not allowed. \n\n3. Dual Recording
+  - Should always be done if you have the capability. All podium positions
+  are expected to dual record or have at least have a recent dual recording
+  history on their profile. Any rider posting high level performances is
+  expected to validate their hardware with dual recordings as a minimum.
+  \n\nResults WILL be amended (if required)\, in the interest of fair
+  play\, for all Restart Esports hosted events. 
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/restart_club_
+ ride_2021oct.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

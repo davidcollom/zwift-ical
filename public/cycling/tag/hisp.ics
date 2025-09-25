@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117293
+SUMMARY:[Paris] Los avHISPados
+LOCATION:Paris
+DESCRIPTION:*** Bienvenidos a este evento social\, rodaremos una hora en
+  torno a 2 wkg entre risas y amigos.\nBARRERA ACTIVA\nCompartiremos audio
+  en Discord\, canal Social. (Se informa de la emisión video/audio directo
+  en redes sociales\, la participación conlleva su
+  aceptación)\n#QUEDATEelMAILLOT\n\n*** Welcome to this social event\, we
+  will shoot an hour around 2 wkg between laughter and friends.\nFENCE
+  ACTIVE\nWe will share audio on Discord\, Social channel. (Direct
+  video/audio broadcast on social networks is reported\, participation
+  implies acceptance)\n#KEEPtheKIT\n\nDiscord:
+  https://discord.com/invite/c7wSyv8UGR\nTelegram:
+  https://t.me/HISPCLUB\nWeb : https://hispclub.es
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/HISP-jan-2025
+ .png
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

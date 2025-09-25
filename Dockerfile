@@ -1,15 +1,12 @@
-FROM ruby:3.4.4
-ARG VERSION=develop
-
-RUN gem install bundler
-
-COPY Gemfile /app/
+FROM golang:1.24-alpine AS builder
 WORKDIR /app
-RUN bundle install
+COPY go.mod go.sum ./
+RUN go mod download 
+COPY . .
+RUN go build -o zwiftcal ./cmd/zwiftcal/main.go
 
-COPY . /app/
-
-ENV PORT=3000 APP_ENV=production RACK_ENV=production VERSION=$VERSION
+FROM alpine:latest
+WORKDIR /app
+COPY --from=builder /app/zwiftcal /app/zwiftcal
 EXPOSE 3000
-
-CMD ["puma", "config.ru","-p","3000"]
+CMD ["/app/zwiftcal"]

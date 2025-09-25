@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117270
+SUMMARY:[Unknown] SZR Group Workout by Thyr
+LOCATION:Unknown
+DESCRIPTION:Ride with Mattias Thyr at Ovning.se in courtesy of SZR as he
+  makes workouts for the one who cares and lets him.\nNudging the grit! The
+  home of the unstructured GWOs. Here you got motivating rides together
+  with friends. Skip plans\, just a exercise your pixels in a group is good
+  for you\, both mentally and physically. Every 6th week we do a #maxtjuga
+  (as we say in Sweden) or a the 20min FTP test together.\n\nOn his 8th
+  years and +350 GWO:s he created and lead personally on Zwift. Come join
+  and\, "Aim for the stars!\n\n• The workout is approximately 60 minutes
+  long and can be done either fasted or fueled. I personally recommend lots
+  of sugars.\n• The goal is to explore and feel the differences between
+  various fueling strategies.\n• Remember to adjust your calorie intake
+  to match your energy needs before during and after the session.\n• This
+  workout is based on a percentage of your FTP (Functional Threshold
+  Power).\n• Ensure your FTP is accurate and up-to-date for the best
+  experience.\n• If needed\, perform an FTP Test a day before on Zwift
+  prior the workout.\n• Use the Zwift Companion App or the Page Up/Down
+  keys on your computer to adjust the FTP bias by 10% up or 25% down\,
+  helping you dial in the effort level to suit your preferences.
+DTSTART:00010101T000000Z
+DTEND:00010101T005700Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/szr.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5117281
+SUMMARY:[Bologna TT] SZR Climbing Crew
+LOCATION:Bologna TT
+DESCRIPTION:Ride description\nPlease join the SZR Climbing Crew as we ride
+  some of the more challenging bumpy routes each week.\nAfter climbs /
+  descents we will try to focus on getting the back of the group
+  together.\nThe goal with an SZR Ride is to focus on the Group and keeping
+  the Group together while having fun to make the time fly fast! You should
+  aim to sit between the fence and the yellow / red beacon.\nThe ride tempo
+  is shown next to the ride category\, this is rider weight / gender
+  dependant.\nNote that the average is for the total ride! There might be
+  variations above or under the average during the ride.\nPlease always
+  follow ride leader instructions.\n\n\n
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/szr.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5117282
+SUMMARY:[France] SZR Pick n Mix
+LOCATION:France
+DESCRIPTION:Please join the SZR Pick n Mix Team as we wind down on a
+  Thursday evening and prepare for the weekend ahead.\n\nThe goal with an
+  SZR Ride is to focus on the Group and keeping the Group together while
+  having fun to make the time fly fast! You should aim to sit between the
+  fence and the yellow / red beacon.\n\nThe ride tempo is shown next to the
+  ride category\, this is rider weight / gender dependant.\n\nNote that the
+  average is for the total ride! There will be variations over or under the
+  average during the ride due to the terrain.\n\nThere may well be optional
+  intervals lead by either the Red or Yellow beacon\, but one beacon will
+  remain at the ride pace for those not wanting to participate in the
+  interval.\n\nAfter climbs / descents we will try to focus on getting the
+  back of the group together.\n\nPlease always follow ride leader
+  instructions.
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/szr.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117365
+SUMMARY:[Watopia] The Velos Klick - 1km Challenge
+LOCATION:Watopia
+DESCRIPTION:A klick is a military term for a distance of 1km\, and so Team
+  Velos brings you a challenge to complete 1km in the fastest time
+  possible. We will change courses monthly (all Flat courses) and we will
+  have winners from each category at the end of the month. Choose your bike
+  very carefully as it could make all the difference\, the challenge is
+  available every night during the week use it as a warm up for a race or
+  just use it to improve your 1km time or power figures\, whatever just
+  have fun. 
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/velos_ride_02
+ -2023.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

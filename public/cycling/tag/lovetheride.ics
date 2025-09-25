@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117256
+SUMMARY:[Watopia] 🏁 Thursday Race by AbMoCC
+LOCATION:Watopia
+DESCRIPTION:Join us every Thursday at 5:45 pm SAST for a thrilling
+  20-minute race! Test your limits and go all-out in this short\, intense
+  event. Let's give it our all and pedal towards fitness and excellence
+  together!\n\nVisit us online at these links\nFacebook:
+  https://www.facebook.com/AbsMotionZA\nInstagram:
+  https://www.instagram.com/absolutemotionza\nZwift Club:
+  https://www.zwift.com/clubs/78646fc8-8199-4683-b023-7898a82c4612/home\nZw
+ ift Power: https://zwiftpower.com/team.php?id=7915\nWebsite:
+  https://www.absolutemotion.co.za/
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/club-images/EVENT/c9958f07-e205-41f0-a1e2-2a4de59
+ e681f
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

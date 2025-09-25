@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117366
+SUMMARY:[Crit City] Beaconsfield Crit Club
+LOCATION:Crit City
+DESCRIPTION:A weekly fast and furious crit around some classic zwift
+  circuits.\n\n#beaconsfield
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/special/yumezi_race
+ _ride_2021may.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

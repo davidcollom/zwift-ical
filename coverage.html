@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>zwiftcal: Go Coverage Report</title>
+		<style>
+			body {
+				background: black;
+				color: rgb(80, 80, 80);
+			}
+			body, pre, #legend span {
+				font-family: Menlo, monospace;
+				font-weight: bold;
+			}
+			#topbar {
+				background: black;
+				position: fixed;
+				top: 0; left: 0; right: 0;
+				height: 42px;
+				border-bottom: 1px solid rgb(80, 80, 80);
+			}
+			#content {
+				margin-top: 50px;
+			}
+			#nav, #legend {
+				float: left;
+				margin-left: 10px;
+			}
+			#legend {
+				margin-top: 12px;
+			}
+			#nav {
+				margin-top: 10px;
+			}
+			#legend span {
+				margin: 0 5px;
+			}
+			.cov0 { color: rgb(192, 0, 0) }
+.cov1 { color: rgb(128, 128, 128) }
+.cov2 { color: rgb(116, 140, 131) }
+.cov3 { color: rgb(104, 152, 134) }
+.cov4 { color: rgb(92, 164, 137) }
+.cov5 { color: rgb(80, 176, 140) }
+.cov6 { color: rgb(68, 188, 143) }
+.cov7 { color: rgb(56, 200, 146) }
+.cov8 { color: rgb(44, 212, 149) }
+.cov9 { color: rgb(32, 224, 152) }
+.cov10 { color: rgb(20, 236, 155) }
+
+		</style>
+	</head>
+	<body>
+		<div id="topbar">
+			<div id="nav">
+				<select id="files">
+				
+				<option value="file0">github.com/davidcollom/zwift-ical/cmd/zwiftcal/main.go (47.2%)</option>
+				
+				<option value="file1">github.com/davidcollom/zwift-ical/internal/events/fetch.go (90.9%)</option>
+				
+				<option value="file2">github.com/davidcollom/zwift-ical/internal/ical/generate.go (94.1%)</option>
+				
+				<option value="file3">github.com/davidcollom/zwift-ical/internal/ical/maps.go (75.0%)</option>
+				
+				<option value="file4">github.com/davidcollom/zwift-ical/internal/site/generate.go (41.4%)</option>
+				
+				<option value="file5">github.com/davidcollom/zwift-ical/internal/site/helpers.go (100.0%)</option>
+				
+				</select>
+			</div>
+			<div id="legend">
+				<span>not tracked</span>
+			
+				<span class="cov0">not covered</span>
+				<span class="cov8">covered</span>
+			
+			</div>
+		</div>
+		<div id="content">
+		
+		<pre class="file" id="file0" style="display: none">package main
+
+import (
+        "log"
+        "os"
+        "path/filepath"
+        "strings"
+
+        "github.com/davidcollom/zwift-ical/internal/events"
+        "github.com/davidcollom/zwift-ical/internal/ical"
+        "github.com/davidcollom/zwift-ical/internal/site"
+)
+
+var publicDir string = filepath.Join("public")
+
+func main() <span class="cov0" title="0">{
+        if err := Run(); err != nil </span><span class="cov0" title="0">{
+                log.Fatalf("Error: %v", err)
+        }</span>
+}
+
+// Run executes the main logic and returns error for testability.
+func Run() error <span class="cov0" title="0">{
+        // Clean up public/ directory before generating new files
+        log.Println("Cleaning up public/ directory...")
+        if err := os.RemoveAll(publicDir); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">if err := site.EnsureDir(publicDir); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">log.Println("Fetching events from Zwift API...")
+        eventsList, err := events.FetchEvents(200, "")
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">log.Printf("Fetched %d events", len(eventsList))
+
+        sportMap := groupEventsBySport(eventsList)
+
+        if err := ensureSportDirs(sportMap); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">if err := generateICalFiles(sportMap); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">icalData := ical.EventsToICal(eventsList)
+        if err := site.GenerateSite(eventsList, icalData, publicDir); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">icalLinks := collectICalLinks(sportMap)
+        indexOutput := filepath.Join(publicDir, "index.html")
+        if err := site.RenderIndexLinks(icalLinks, indexOutput); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+
+        <span class="cov0" title="0">log.Println("All iCal files and static site generated in public/")
+        return nil</span>
+}
+
+// groupEventsBySport groups events by their sport.
+func groupEventsBySport(eventsList []events.Event) map[string][]events.Event <span class="cov8" title="1">{
+        sportMap := map[string][]events.Event{}
+        for _, e := range eventsList </span><span class="cov8" title="1">{
+                sport := strings.ToLower(e.Sport)
+                if sport == "" </span><span class="cov8" title="1">{
+                        continue</span>
+                }
+                <span class="cov8" title="1">sportMap[sport] = append(sportMap[sport], e)</span>
+        }
+        <span class="cov8" title="1">return sportMap</span>
+}
+
+// ensureSportDirs creates necessary directories for each sport.
+func ensureSportDirs(sportMap map[string][]events.Event) error <span class="cov8" title="1">{
+        for sport := range sportMap </span><span class="cov8" title="1">{
+                for _, sub := range []string{"rides", "workouts", "races", "tag"} </span><span class="cov8" title="1">{
+                        dir := filepath.Join(publicDir, sport, sub)
+                        if err := site.EnsureDir(dir); err != nil </span><span class="cov0" title="0">{
+                                log.Printf("Error creating directory %s: %v", dir, err)
+                                return err
+                        }</span>
+                }
+        }
+        <span class="cov8" title="1">return nil</span>
+}
+
+// generateICalFiles generates iCal files for each sport/type/tag.
+func generateICalFiles(sportMap map[string][]events.Event) error <span class="cov0" title="0">{
+        for sport, sportEvents := range sportMap </span><span class="cov0" title="0">{
+                log.Printf("Processing sport: %s (%d events)", sport, len(sportEvents))
+                types := map[string]string{
+                        "rides":    "GROUP_RIDE",
+                        "workouts": "GROUP_WORKOUT",
+                        "races":    "RACE",
+                }
+                for typ, eventType := range types </span><span class="cov0" title="0">{
+                        filtered := filterEventsByType(sportEvents, eventType)
+                        icalData := ical.EventsToICal(filtered)
+                        icalPath := filepath.Join(publicDir, sport, typ, "events.ics")
+                        if err := site.WriteICal(icalData, icalPath); err != nil </span><span class="cov0" title="0">{
+                                log.Printf("Error writing %s: %v", icalPath, err)
+                        }</span> else<span class="cov0" title="0"> {
+                                log.Printf("Generated %s (%d events)", icalPath, len(filtered))
+                        }</span>
+                }
+                // Tags
+                <span class="cov0" title="0">tagSet := collectTags(sportEvents)
+                for tag := range tagSet </span><span class="cov0" title="0">{
+                        tagEvents := filterEventsByTag(sportEvents, tag)
+                        icalData := ical.EventsToICal(tagEvents)
+                        icalPath := filepath.Join(publicDir, sport, "tag", tag+".ics")
+                        if err := site.WriteICal(icalData, icalPath); err != nil </span><span class="cov0" title="0">{
+                                log.Printf("Error writing %s: %v", icalPath, err)
+                        }</span> else<span class="cov0" title="0"> {
+                                log.Printf("Generated %s (%d events)", icalPath, len(tagEvents))
+                        }</span>
+                }
+        }
+        <span class="cov0" title="0">return nil</span>
+}
+
+// filterEventsByType filters events by event type.
+func filterEventsByType(eventsList []events.Event, eventType string) []events.Event <span class="cov8" title="1">{
+        filtered := []events.Event{}
+        for _, e := range eventsList </span><span class="cov8" title="1">{
+                if e.EventType == eventType </span><span class="cov8" title="1">{
+                        filtered = append(filtered, e)
+                }</span>
+        }
+        <span class="cov8" title="1">return filtered</span>
+}
+
+// collectTags collects unique tags from events.
+func collectTags(eventsList []events.Event) map[string]struct{} <span class="cov8" title="1">{
+        tagSet := map[string]struct{}{}
+        for _, e := range eventsList </span><span class="cov8" title="1">{
+                for _, tag := range e.Tags </span><span class="cov8" title="1">{
+                        if tag != "" &amp;&amp; !strings.Contains(tag, "=") </span><span class="cov8" title="1">{
+                                tagSet[tag] = struct{}{}
+                        }</span>
+                }
+        }
+        <span class="cov8" title="1">return tagSet</span>
+}
+
+// filterEventsByTag filters events by a specific tag.
+func filterEventsByTag(eventsList []events.Event, tag string) []events.Event <span class="cov8" title="1">{
+        tagEvents := []events.Event{}
+        for _, e := range eventsList </span><span class="cov8" title="1">{
+                for _, t := range e.Tags </span><span class="cov8" title="1">{
+                        if t == tag </span><span class="cov8" title="1">{
+                                tagEvents = append(tagEvents, e)
+                                break</span>
+                        }
+                }
+        }
+        <span class="cov8" title="1">return tagEvents</span>
+}
+
+// collectICalLinks collects all iCal file paths for index rendering.
+func collectICalLinks(sportMap map[string][]events.Event) []string <span class="cov8" title="1">{
+        var icalLinks []string
+        for sport, sportEvents := range sportMap </span><span class="cov8" title="1">{
+                sportLower := strings.ToLower(sport)
+                types := map[string]string{
+                        "rides":    "GROUP_RIDE",
+                        "workouts": "GROUP_WORKOUT",
+                        "races":    "RACE",
+                }
+                for typ := range types </span><span class="cov8" title="1">{
+                        icalPath := filepath.Join(sportLower, typ, "events.ics")
+                        icalLinks = append(icalLinks, icalPath)
+                }</span>
+                <span class="cov8" title="1">tagSet := collectTags(sportEvents)
+                for tag := range tagSet </span><span class="cov8" title="1">{
+                        tagPath := filepath.Join(sportLower, "tag", tag+".ics")
+                        icalLinks = append(icalLinks, tagPath)
+                }</span>
+        }
+        <span class="cov8" title="1">return icalLinks</span>
+}
+</pre>
+		
+		<pre class="file" id="file1" style="display: none">package events
+
+import (
+        "encoding/json"
+        "fmt"
+        "io"
+        "time"
+
+        retryablehttp "github.com/hashicorp/go-retryablehttp"
+)
+
+var (
+        zwiftAPI   = "https://us-or-rly101.zwift.com/api/public/events/upcoming"
+        MaxRetries = 10
+        MinSleep   = 100 * time.Millisecond
+        MaxSleep   = 2 * time.Second
+)
+
+func FetchEvents(limit int, tag string) ([]Event, error) <span class="cov8" title="1">{
+        req, err := retryablehttp.NewRequest("GET", zwiftAPI, nil)
+        if err != nil </span><span class="cov0" title="0">{
+                return nil, err
+        }</span>
+        <span class="cov8" title="1">q := req.URL.Query()
+        q.Add("limit", fmt.Sprintf("%d", limit))
+        if tag != "" </span><span class="cov0" title="0">{
+                q.Add("tags", tag)
+        }</span>
+        <span class="cov8" title="1">req.URL.RawQuery = q.Encode()
+        req.Header.Set("Content-Type", "application/json")
+
+        client := retryablehttp.NewClient()
+        client.RetryMax = MaxRetries
+        client.RetryWaitMin = MinSleep
+        client.RetryWaitMax = MaxSleep
+
+        resp, err := client.Do(req)
+        if err != nil </span><span class="cov8" title="1">{
+                return nil, err
+        }</span>
+        <span class="cov8" title="1">defer resp.Body.Close()
+        body, _ := io.ReadAll(resp.Body)
+
+        var events []Event
+        if err := json.Unmarshal(body, &amp;events); err != nil </span><span class="cov8" title="1">{
+                return nil, err
+        }</span>
+        <span class="cov8" title="1">return events, nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file2" style="display: none">package ical
+
+import (
+        "fmt"
+        "time"
+
+        ics "github.com/arran4/golang-ical"
+        "github.com/davidcollom/zwift-ical/internal/events"
+)
+
+func EventsToICal(events []events.Event) string <span class="cov8" title="1">{
+        cal := ics.NewCalendar()
+        cal.SetMethod(ics.MethodRequest)
+        cal.SetProductId("Zwift Calendar - by David Collom")
+        for _, e := range events </span><span class="cov8" title="1">{
+                ev := cal.AddEvent(fmt.Sprintf("%d", e.ID))
+                ev.SetSummary(fmt.Sprintf("[%s] %s", worldName(e), e.Name))
+                ev.SetLocation(worldName(e))
+                ev.SetDescription(e.Description)
+                // Set start and end times
+                start, _ := time.Parse(time.RFC3339, e.EventStart)
+                ev.SetStartAt(start.UTC())
+                end := start.Add(time.Duration(e.DurationInSeconds) * time.Second)
+                ev.SetEndAt(end.UTC())
+                // Add URL/Image if available
+                if e.ImageUrl != "" </span><span class="cov0" title="0">{
+                        ev.SetURL(e.ImageUrl)
+                }</span>
+                <span class="cov8" title="1">ev.SetClass(ics.ClassificationPublic)
+                ev.SetLastModifiedAt(time.Now())</span>
+        }
+        <span class="cov8" title="1">return cal.Serialize()</span>
+}
+</pre>
+		
+		<pre class="file" id="file3" style="display: none">package ical
+
+import "github.com/davidcollom/zwift-ical/internal/events"
+
+var mapIDs = []string{
+        "Watopia",
+        "Richmond",
+        "London",
+        "New York",
+        "Innsbuck",
+        "Bologna TT",
+        "Yorkshire",
+        "Crit City",
+        "France",
+        "Paris",
+        "Makuri Islands",
+}
+
+func worldName(e events.Event) string <span class="cov8" title="1">{
+        mapID := e.MapId
+        if mapID &gt; 0 &amp;&amp; mapID &lt;= len(mapIDs) </span><span class="cov8" title="1">{
+                return mapIDs[mapID-1]
+        }</span>
+        <span class="cov0" title="0">return "Unknown"</span>
+}
+</pre>
+		
+		<pre class="file" id="file4" style="display: none">package site
+
+import (
+        _ "embed"
+        "html/template"
+        "os"
+        "path/filepath"
+
+        "github.com/davidcollom/zwift-ical/internal/events"
+)
+
+//go:embed templates/index.html.tmpl
+var indexTemplateContent string
+
+func RenderIndex(events []events.Event, outputPath string) error <span class="cov0" title="0">{
+        tmpl, err := template.New("index").Parse(indexTemplateContent)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">f, err := os.Create(outputPath)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">defer f.Close()
+        return tmpl.Execute(f, events)</span>
+}
+
+func RenderIndexLinks(paths []string, outputPath string) error <span class="cov8" title="1">{
+        tmpl, err := template.New("index_links").Parse(indexTemplateContent)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov8" title="1">f, err := os.Create(outputPath)
+        if err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov8" title="1">defer f.Close()
+        return tmpl.Execute(f, paths)</span>
+}
+
+func WriteICal(icalData, outputPath string) error <span class="cov8" title="1">{
+        f, err := os.Create(outputPath)
+        if err != nil </span><span class="cov8" title="1">{
+                return err
+        }</span>
+        <span class="cov8" title="1">defer f.Close()
+        _, err = f.WriteString(icalData)
+        return err</span>
+}
+
+func GenerateSite(events []events.Event, icalData string, publicDir string) error <span class="cov0" title="0">{
+        indexOutput := filepath.Join(publicDir, "index.html")
+        icalOutput := filepath.Join(publicDir, "zwift.ics")
+        if err := RenderIndex(events, indexOutput); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">if err := WriteICal(icalData, icalOutput); err != nil </span><span class="cov0" title="0">{
+                return err
+        }</span>
+        <span class="cov0" title="0">return nil</span>
+}
+</pre>
+		
+		<pre class="file" id="file5" style="display: none">package site
+
+import (
+        "os"
+        "strings"
+)
+
+// EnsureDir creates a directory if it does not exist
+func EnsureDir(dir string) error <span class="cov8" title="1">{
+        return os.MkdirAll(strings.ToLower(dir), 0755)
+}</span>
+</pre>
+		
+		</div>
+	</body>
+	<script>
+	(function() {
+		var files = document.getElementById('files');
+		var visible;
+		files.addEventListener('change', onChange, false);
+		function select(part) {
+			if (visible)
+				visible.style.display = 'none';
+			visible = document.getElementById(part);
+			if (!visible)
+				return;
+			files.value = part;
+			visible.style.display = 'block';
+			location.hash = part;
+		}
+		function onChange() {
+			select(files.value);
+			window.scrollTo(0, 0);
+		}
+		if (location.hash != "") {
+			select(location.hash.substr(1));
+		}
+		if (!visible) {
+			select("file0");
+		}
+	})();
+	</script>
+</html>

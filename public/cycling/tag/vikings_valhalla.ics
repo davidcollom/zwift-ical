@@ -1,0 +1,31 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5118021
+SUMMARY:[Innsbuck] Team Valhalla [TV] Friday Fun Ride into the Weekend
+LOCATION:Innsbuck
+DESCRIPTION: 🌄 The weekend is calling… and Valhalla awaits!\nJoin the
+  warriors of Team Valhalla [TV] every Friday as we saddle up for an epic\,
+  social ride to kick off the weekend with power and purpose. Whether
+  you're a battle-hardened Zwifter or just forging your path\, this ride is
+  all about fun\, inclusion\, and camaraderie.\n\n🪓 Choose your clan:\nD
+  Pace Shieldmaidens & Shieldbearers – A steady cruise for recovery or
+  newer riders\nC Pace Berserkers – A stronger effort for those ready to
+  hammer the hills together\n\nTogether\, we ride in formation\, keep the
+  group tight\, and motivate like true Vikings. Expect banter\,
+  encouragement\, maybe a few horns sounding as we charge into the
+  weekend.\n\n💥 No battles\, no drops – just a crew of legends making
+  every watt count. Whether you're in it for the laughs\, the training\, or
+  the Valhalla vibes – we’ve got a place for you in the pack.\nGrab
+  your gear\, summon your inner warrior\, and ride with us. The gates of
+  the weekend are open – let’s storm them together!
+DTSTART:00010101T000000Z
+DTEND:00010101T004500Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/vikings_vahal
+ la_ride_2022feb.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

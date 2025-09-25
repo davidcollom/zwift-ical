@@ -1,0 +1,36 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117267
+SUMMARY:[Crit City] Hexa'Quiz Ride
+LOCATION:Crit City
+DESCRIPTION:[FRANÇAIS]\nHEXA'Quiz Ride\, c'est une compétition sympa où
+  on combine vélo et culture\ngénérale. On pédale tranquillement tout
+  en répondant à des questions sur\nl'appli Kahoot! Tous les 4/5
+  kilomètres\, une question arrive. Celui qui\nrépond bien et vite
+  gagne.\n\nOn organise également un classement mensuel pour ajouter un
+  peu de piquant\nà l'aventure.\n\nLes questions portent sur divers
+  aspects du cyclisme : les exploits des\nprofessionnels\, les différents
+  types de vélos\, l'univers virtuel de Zwift\,\net tout ce qui touche de
+  près ou de loin à cette passionnante discipline\nsportive.\n\nVenez
+  vous amuser et défier vos amis ! Que le meilleur gagne ! C'est
+  le\nmoment de montrer vos connaissances tout en pédalant
+  !\n\n[ENGLISH]\nHEXA'Quiz Ride is a fun competition combining cycling and
+  general\nknowledge. You pedal quietly while answering questions on the
+  Kahoot! app.\nEvery 4/5 kilometers\, a question comes up. Whoever answers
+  well and quickly\nwins.\n\nA monthly ranking is also organized to add a
+  little spice to the adventure.\n\nThe questions focus on various aspects
+  of cycling: the exploits of the\nprofessionals\, the different types of
+  bikes\, the virtual world of Zwift\,\nand anything else related to this
+  exciting sport.\n\nCome and have fun and challenge your friends! May the
+  best man win! It's\ntime to show off your knowledge while you pedal!
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/Hexagone-ride
+ -nov_2023.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

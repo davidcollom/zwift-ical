@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5118019
+SUMMARY:[Watopia] "Russian Step - Hamster Style"
+LOCATION:Watopia
+DESCRIPTION:“Russian Step - Hamster Style” is a cadence game where your
+  legs spin like a hamster wheel! Alternate between high-speed spins
+  (100–120 RPM) and controlled strength efforts (60–75 RPM). It builds
+  coordination\, pedaling efficiency\, and muscle activation. Stay focused
+  and flow with the rhythm. Let’s spin like warriors!\nThe “Russian
+  Step - Hamster Style” workout is perfect for those aiming to improve
+  cadence agility\, pedaling efficiency\, and neuromuscular responsiveness.
+  By alternating very high RPM efforts with slower\, strength-focused
+  segments\, it trains your body to handle sudden changes in rhythm and
+  builds muscular coordination. It’s an excellent session for riders of
+  all levels who want to break routine\, sharpen their pedal stroke\, and
+  have fun while training. It also keeps the mind engaged and legs
+  responsive.\n⸻\n\n        •        Warm-up (10 min):\n        •    
+     Easy spin at 90 RPM\, gradually increasing power to 60% FTP.\n       
+  •        Main set (45 min):\n        •        6 x (6 min
+  intervals):\n        •        1 min @ 80% FTP\, 65 RPM\n        •    
+     1 min @ 95% FTP\, 90 RPM\n        •        30 sec @ 110 RPM\, 70%
+  FTP\n        •        30 sec @ 60 RPM\, 90% FTP\n        •        1
+  min @ 100 RPM\, 75% FTP\n        •        1 min recovery @ 50% FTP\, 85
+  RPM\n        •        Finale (5 min):\n        •        Progressive
+  cadence ramp: start at 85 RPM\, increase 5 RPM every minute\n        • 
+        Cool-down (10 min):\n        •        Easy spin at 60% FTP\, 85
+  RPM
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/club-images/EVENT/3b204357-7228-43ed-90f5-b8908ff
+ 62227
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

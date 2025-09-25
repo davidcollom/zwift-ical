@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117252
+SUMMARY:[Watopia] SYN Workout Hour
+LOCATION:Watopia
+DESCRIPTION:Time to fire up those legs! Every Thursday the SYN Global
+  Cycling Club brings you the SYN Workout Hour—a weekly session built to
+  boost your fitness and keep you sweating with a smile. Each week we mix
+  it up: sometimes it’s steady FTP-building grind\, sometimes it’s
+  short sharp power blasts\, and other times it’s smooth aerobic work.
+  Whatever’s on the menu\, you’ll come out stronger.\n\n60MIN NO DROP
+  WORKOUT\nZwift keeps us together\, so you’ll hit your own FTP targets
+  without getting left behind. Sessions are round 60 minutes of solid
+  training\, warm-up to cool-down.\n\nUNLOCK THE SYNDICATE CLUB KIT\nFinish
+  our High Intensity Sessions on Zwift and unlock the Inverted SYN Kit
+  (black jersey\, white bib) in your garage\, so you can wear the colors of
+  our cycling club in any other ride on Zwift.\n\nDISCOVER MORE IN THE SYN
+  ZWIFT CLUB\nEnjoyed this ride? Feel free to join our Zwift Club (SYN
+  Cycling Club)\, and discover all our events:\nhttps://bit.ly/SYNZwiftClub
+DTSTART:00010101T000000Z
+DTEND:00010101T005500Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/SYN_cycling-c
+ lub-ride-nov-2024.png
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

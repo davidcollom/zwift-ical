@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117275
+SUMMARY:[Unknown] ZLDR No One Left Behind
+LOCATION:Unknown
+DESCRIPTION:Come join ZLDR for a nice go AYOP (at your own pace) event. All
+  participants whether running or walking are encouraged to participate.
+  Our leads will be taking this time to walk and chat and basically
+  encourage the heck out of you to just keep moving regardless of your
+  pace!\n\nZLDR is a group of diverse people\, from speed demons to
+  walkers\, from people just getting to their first 5k to ultra runners. We
+  are here to support your on-foot dreams and help you develop your
+  running/walking skills. We are a collective group of supportive and
+  experienced runners and walkers who want to help you set and achieve new
+  goals!\n\nFor more ZLDR fun and support\, join our groups on social media
+  platforms:\n\nFacebook Group:
+  https://www.facebook.com/groups/ZLDR2020\nStrava Club:
+  https://www.strava.com/clubs/zldr2020\nInstagram page:
+  https://www.instagram.com/zldr.2020/\nDiscord Invitation (not required
+  for the run)\nhttps://discord.com/invite/PuFctEnWynq
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/running/special/yumezi_grou
+ p_copy1_run_2021may.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5117984
+SUMMARY:[Watopia] Fearless Flying Feet Track Intervals
+LOCATION:Watopia
+DESCRIPTION:Ready to get your feet flying by running track intervals of 800
+  meters followed by a 400 meter recovery. FIVE total times to gain speed.
+  Challenge yourself to get better with each interval and come back week
+  after week!\n\n"He who would learn to fly one day must first learn to
+  stand and walk and run and climb and dance\; one cannot fly into
+  flying.” Friedrich
+  Nietzsche\nhttps://www.brainyquote.com/quotes/friedrich_nietzsche_159166\
+ n\n#fear
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/Running/Run_Watopia_12.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

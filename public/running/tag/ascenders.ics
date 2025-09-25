@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117400
+SUMMARY:[France] Ascenders Team Asia Morning Group Run
+LOCATION:France
+DESCRIPTION:Come and join the Ascenders Team as we put on our running shoes
+  and run\ndaily with our friends too by starting our day in a healthy way.
+  Research\nshows that just 30 minutes of running can have huge benefits on
+  your\nshort-term and long-term health. So we designed our running events
+  to\nmotivate athletes to run 30 minutes each day to boost your metabolism
+  and\nuse those calories. Running will also help you look good and feel
+  stronger.\n\nOur group run is designed with runners of all levels in mind
+  and set the\npace range to be determined by our Zwifter Runners. So find
+  a group pace\nthat matches how you feel each day and make those steps
+  count for you.\nRunners who went beyond the event duration will find that
+  we have selected\ncourses that will help you earn the Route Badges when
+  you run the full\ndistance.\n\nSo lace up those running shoes as
+  everybody is welcome to join with our\nfriendly and motivating
+  runners.\n\n# Join Ascenders Team on
+  Facebook:\nhttps://www.facebook.com/groups/AscendersZwift\n# Ascenders
+  Discord Channel: https://discord.gg/cBfQ5jkrPh
+DTSTART:00010101T000000Z
+DTEND:00010101T003000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/ascenders_rid
+ e_2021feb.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

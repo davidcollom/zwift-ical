@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117280
+SUMMARY:[France] FLIPADOS RACE By PETA-Z
+LOCATION:France
+DESCRIPTION:Nuestra carrera para los más flipados estrena formato! ponte a
+  prueba y exprímete en una carrera a tope\, o no\, como tu prefieras!
+  Dependerá de lo FLIPADO que estés!\n\n* Obligatorio potenciómetro y
+  pulsómetro*\n- Este evento utiliza Zwift Racing Score para garantizar
+  una experiencia de carrera mejor\, más justa\, más competitiva y más
+  agradable para todos los Zwifters. Para obtener más información\,
+  consulta las preguntas frecuentes aquí:
+  https://support.zwift.com/en_us/zwift-labs-racing-score-faq-BkG9_Rqrh\n-
+  Resultados oficiales y bajo las normas de ZwiftPower.\n- El evento puede
+  estar incluido dentro de una de nuestras ligas y competiciones.
+  Consúltalo aquí: https://www.peta-zeta.com/competiciones\n- Nuestra
+  web: http://www.peta-zeta.com\n- Hazte miembro del Equipo PETA-Z en
+  https://www.zwiftpower.com/team.php?id=10683\n- Emisión en directo en
+  Twitch:
+  https://www.twitch.tv/petazetateam\n-------------------------------------
+ ------------------------------------------\nEvent Title\nRACE FLIPADOS. By
+  PETA-Z\nEvent Description\nSPANISH\nOur race for the craziest ones has a
+  brand new format! Test yourself in a race to the fullest\, or not\, as
+  you prefer! It will depend on how CRAZY you are!\n\n* Potentiometer and
+  heart rate monitor required*.\n- This event uses Zwift Racing Score to
+  ensure a better\, fairer\, more competitive and more enjoyable racing
+  experience for all Zwifters. For more information\, check out the FAQ
+  here:
+  https://support.zwift.com/en_us/zwift-labs-racing-score-faq-BkG9_Rqrh\n-
+  Official results and under ZwiftPower rules.\n- The event may be included
+  in one of our leagues and competitions. Check here:
+  https://www.peta-zeta.com/competiciones\n- Our website:
+  http://www.peta-zeta.com\n- Become a member of the PETA-Z Team at
+  https://www.zwiftpower.com/team.php?id=10683\n- Live broadcast on Twitch:
+  https://www.twitch.tv/petazetateam
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/peta_ride_202
+ 2feb.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5117293
+SUMMARY:[Paris] Los avHISPados
+LOCATION:Paris
+DESCRIPTION:*** Bienvenidos a este evento social\, rodaremos una hora en
+  torno a 2 wkg entre risas y amigos.\nBARRERA ACTIVA\nCompartiremos audio
+  en Discord\, canal Social. (Se informa de la emisión video/audio directo
+  en redes sociales\, la participación conlleva su
+  aceptación)\n#QUEDATEelMAILLOT\n\n*** Welcome to this social event\, we
+  will shoot an hour around 2 wkg between laughter and friends.\nFENCE
+  ACTIVE\nWe will share audio on Discord\, Social channel. (Direct
+  video/audio broadcast on social networks is reported\, participation
+  implies acceptance)\n#KEEPtheKIT\n\nDiscord:
+  https://discord.com/invite/c7wSyv8UGR\nTelegram:
+  https://t.me/HISPCLUB\nWeb : https://hispclub.es
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/HISP-jan-2025
+ .png
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5117394
+SUMMARY:[Innsbuck] Restart Esports - Thursday Thumper
+LOCATION:Innsbuck
+DESCRIPTION:Restart Esports - instagram.com/restart.esports\n\n1. Heart
+  Rate Monitor (HRM) is mandatory for all participants.\n\n2. Power Source
+  is Mandatory for all racers. A smart trainer or smart bike should be your
+  power source where possible. ZPower is not allowed. \n\n3. Dual Recording
+  - Should always be done if you have the capability. All podium positions
+  are expected to dual record or have at least have a recent dual recording
+  history on their profile. Any rider posting high level performances is
+  expected to validate their hardware with dual recordings as a minimum.
+  \n\nResults WILL be amended (if required)\, in the interest of fair
+  play\, for all Restart Esports hosted events. 
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/restart_club_
+ ride_2021oct.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117284
+SUMMARY:[Watopia] Zwift NL Recovery Ride
+LOCATION:Watopia
+DESCRIPTION:Relaxed samen op pad\, dat is waar het in onze ZwiftNL Group
+  Rides om gaat. Rustig tempo en een makkelijke route\, zodat jij ook een
+  beetje kunt socializen met de andere deelnemers. Samen uit\, samen
+  thuis!\n____________\n\nRelaxed on the road together\, that's what our
+  ZwiftNL Group Rides are all about. Easy pace and an easy route\, so you
+  can also socialize a bit with the other participants. Out together\, home
+  together!\n\nCheck ook Zwift Nederland op
+  Facebook\nhttps://www.facebook.com/groups/zwiftnederland/\nhttps://instag
+ ram.com/zwiftnederland\n#zwiftnl
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/partners/zwift_nl_r
+ ide_2021november.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

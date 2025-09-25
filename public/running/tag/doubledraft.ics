@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117984
+SUMMARY:[Watopia] Fearless Flying Feet Track Intervals
+LOCATION:Watopia
+DESCRIPTION:Ready to get your feet flying by running track intervals of 800
+  meters followed by a 400 meter recovery. FIVE total times to gain speed.
+  Challenge yourself to get better with each interval and come back week
+  after week!\n\n"He who would learn to fly one day must first learn to
+  stand and walk and run and climb and dance\; one cannot fly into
+  flying.” Friedrich
+  Nietzsche\nhttps://www.brainyquote.com/quotes/friedrich_nietzsche_159166\
+ n\n#fear
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/Running/Run_Watopia_12.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

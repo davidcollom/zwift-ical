@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117258
+SUMMARY:[New York] Hercules - Super Chilled\, Cool as Ice\, Thursday Social
+LOCATION:New York
+DESCRIPTION:Join our Super Chilled\, Cool As Ice\, Thursday Social - a
+  super friendly and inclusive group ride on Zwift! We ride with the rubber
+  band enabled\, so no one gets dropped\, and everyone stays together no
+  matter the pace.\n\nExpect great chat\, good vibes\, quizzes\, fun facts
+  and a welcoming atmosphere for all riders\, whether you're new to Zwift
+  or a seasoned pro.\n\nPlease join our Zwift Club at
+  https://www.zwift.com/uk/clubs/d6581e47-deb2-46ed-a278-5777d5d2fd0f/home\
+ n\nPlease join our Facebook Group at
+  https://www.facebook.com/groups/2606407819659263/\n\nPlease join us
+  online at https://herculesrunningandtri.com/\n\nPlease join us on Strava
+  at
+  https://www.strava.com/clubs/herculesrunningandtriclub\n\n#jerseyunlock
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/club-images/EVENT/b2d46bf4-fdc8-4a78-b834-860662c
+ 417d3
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117323
+SUMMARY:[Watopia] DBR Thursday Race
+LOCATION:Watopia
+DESCRIPTION:Welcome to DBR Thursday Race.\nAll will start with 1 minute
+  between RS categories. Expect each race to be highly competitive and have
+  fun.\nCategories\nEach race will be using Zwift Racing Score (ZRS) for
+  categorization.\nrace up a category\, if your RS is at the top end of a
+  category. Or if you simply desire an added challenge.\n- A: 1000 =<
+  690\n- B:690<520\n- C:520<350\n- D:350<180\n- E:180<=0\nYour Zwift Racing
+  Score is determined by how much success you have in races.\nbetter
+  against people with higher ZRS\, then your ZRS may increase. If you place
+  worse than people with lower ZRS\, then your score might decrease. Read
+  more about ZRS here -
+  https://support.zwift.com/en_us/racing-score-faq-BkG9_Rqrh 
+ <https://support.zwift.com/en_us/racing-score-faq-BkG9_Rqrh>\nIf your ZRS
+  increases past a category boundary during the series\, your points earned
+  will not transfer to the new category with you.\nRULES:\nSmart trainer or
+  power meter is required. zPower will be removed.\nHeart rate monitors are
+  compulsory for all categories.\nNo TT bikes unless it's a TT event.\nYou
+  need to have a registered account with Zwiftpower.com and accept their
+  terms and conditions to be in the results of the race.\nMisc.\nRace
+  organizers may request riders in all categories to provide a dual
+  recording or a matching RL effort (Strava) in order to verify a Zwift
+  race effort. Failure to comply may result in disqualification from the
+  event. Failure to provide a dual recording or RL effort on three requests
+  may result in disqualification from future events\, until a dual
+  recording with a matching effort is provided.\nRace organizers may
+  exclude a rider from the results\, due to poor sportsmanship. Examples
+  may be bad language\, sandbagging or other behavior of a disruptive
+  manner.\n\n#danishbikeriders
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/dbr_ride_2022
+ jan.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

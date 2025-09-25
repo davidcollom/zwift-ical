@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117419
+SUMMARY:[New York] Team Giant on the NYC KOM After Party
+LOCATION:New York
+DESCRIPTION:Team Giant on the NYC KOM After Party is a group ride starting
+  with a brief warm up and settling into a tight group ride at a 2.3-2.6
+  wkg pace.  It's a chatty group ride\, we're supportive\, we welcome all\,
+  and lots of banter is welcome.  Warming up for a race? Stick around as
+  long as you like and get three laps of the Gotham Grind route as a
+  group\, and then it's up to you. Push the NYC KOM for a PR\, or stay back
+  with the leader and finish the route\, it's all up to you.  
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/club-images/EVENT/f6fafb7d-4977-4a15-9a41-b90a05d
+ 2ede1
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

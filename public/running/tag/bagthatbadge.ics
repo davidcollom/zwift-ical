@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117972
+SUMMARY:[Watopia] Bag that Badge Series
+LOCATION:Watopia
+DESCRIPTION:Open to all runners\, Bag that Badge series is hosted by
+  Stephen Cousins and is a fun way to earn your Zwift route
+  badges.\nStephen Cousins is an active member of the Zwift Runners
+  Facebook group and founder of Film My Run (FMR)\nJoin the FMR Club here
+  https://www.zwift.com/uk/clubs/6afca04c-8fac-4ffa-b700-f27a73d7f3dd/join\
+ nWatch the Live Stream of this event on the Zwift Run Channel at
+  YouTube.com/ZwiftRunChannel\n\nRoute Schedule rotates weekly:\nHandful of
+  Gravel\nSurfin’ Safari\nSplash and Dash\n11.1 Ocean Blvd\n5k
+  Loop\nChili Pepper\nJon’s Route\nThat’s Amore\nCouch to Sky k\nFlat
+  irons\nHudson Roll\nPark to Peak\nMay field\nMayan Bridge Loop\nItalian
+  Villas Circuit
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/Running/wat_grp_3.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

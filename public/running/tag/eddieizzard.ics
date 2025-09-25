@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117334
+SUMMARY:[Watopia] MHG Run Club
+LOCATION:Watopia
+DESCRIPTION:Back in January 2021\, Eddie Izzard ran 32 marathons in 31
+  days. Our community rallied together and joined the action all month
+  long. This inspired us to create the MHG Run Club\, which continues
+  Eddie’s incredible efforts of making humanity great.\n\nThe MHG Run
+  Club motivates and supports everybody\, whether you’re looking for tips
+  to achieve your training goals or looking for a group to bond and
+  socialize with. A light-minded Zwift treadmill runners group\, for
+  runners of all abilities\, friendly chat and a good laugh :)\n\nPlease
+  feel free to join me Clive Finnimore with our official MHG Run Club
+  Lunchtime 5K @ 8KPH on Monday\, Wednesday & Fridays\, See you there soon
+  :)\n\nPlease also join us on:\n\nFacebook:
+  https://www.facebook.com/groups/252358412942586/\nStrava:
+  https://www.strava.com/clubs/MHGA\nKeep on Running \n
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/running/special/make_humani
+ ty_great_run_club_2021mar.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR
