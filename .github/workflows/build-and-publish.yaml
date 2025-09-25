@@ -33,12 +33,13 @@ jobs:
 
     - name: Publish to Cloudflare Pages
       id: deploy
-      uses: cloudflare/pages-action@v1
+      uses: cloudflare/wrangler-action@v3
       if: ${{ github.actor != 'dependabot[bot]' }}
       with:
         apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
         accountId: ${{secrets.CLOUDFLARE_ACCOUNT_ID }}
-        projectName: zwift-ical
-        directory: public
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-        branch: main
+        command: |
+          pages deploy public/ --project-name=zwift-ical --branch=main
+        
+
