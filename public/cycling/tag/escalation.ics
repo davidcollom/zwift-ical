@@ -1,0 +1,40 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5118018
+SUMMARY:[Innsbuck] Escalation
+LOCATION:Innsbuck
+DESCRIPTION:ABOUT THIS WORKOUT\n\nEscalation features intervals that become
+  harder as the workout elapses. Starting off at mainly sub-threshold
+  intensity\, but progressing to very difficult 30/30s for the
+  finale!\n\nWORKOUT DESIGNER\n\nShayne Gaffney (GC Coaching) holds a
+  bachelors degree in Health Science in Professional Development and
+  Advanced Patient Care\, is a USA Cycling Level 1 (expert level) Certified
+  Coach\, a level 2 certified Training Peaks coach\, a USA Cycling
+  certified power based training coach\, USA Olympic Committee Safe Sport
+  Certified\, and a licensed physical therapist assistant.  He is also the
+  creator of Zwift's "Build Me Up" Flexible Training Plan.  He can be
+  contacted directly via  for any cycling or training related
+  questions.\n\nFor more information on GC Coaching\, please visit
+  www.gaffneycyclingcoaching.com\n\nABOUT GROUP WORKOUTS\n\nZwifters line
+  up in the starting area just like a normal event and once the event
+  starts\, workout mode begins. Everyone stays together regardless of power
+  output. That's right\, if you're outputting 100W and another Zwifter is
+  outputting 400W you will stay in exactly the same position relative to
+  each other. Only if you stop pedaling and fall 6 meters behind the group
+  will the rubber-banding stop. \n\nWe highly recommend doing one of the
+  FTP tests as the estimated FTP can be inaccurate and make the difficulty
+  level of the workouts too high for your current fitness level. For more
+  info on FTP go to:
+  https://support.zwift.com/hc/en-us/articles/210208083-What-is-FTP-and-how
+ -is-it-used-in-Zwift
+DTSTART:00010101T000000Z
+DTEND:00010101T013500Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/workouts/ins_wko_2.
+ jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

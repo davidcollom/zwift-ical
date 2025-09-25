@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117399
+SUMMARY:[Watopia] BMTR Faster Masters A/B/C Team Pursuit
+LOCATION:Watopia
+DESCRIPTION:From May through September\, the three category groups (A\, B\,
+  C) may or may not include a Yellow Beacon Team Leader. \n\nTeam C will
+  start first\, followed by Team B\, with Team A departing last. The goal
+  is for the faster teams behind to catch Team C at or near the finish\,
+  with all three teams holding their respective advertised pace. Starting
+  time gaps may be adjusted during the season to ensure a close
+  finish.\n\nThe pace efforts for each team are as follows:\n\n- Team C:
+  2.5 to 3.1 watts per kilogram (w/kg).\n- Team B: 3.2 to 4.0 w/kg.\n- Team
+  A: 4.1 to 5.0 w/kg.\n\nAll rides include a 30-minute Late Join period.
+  During this time\, dropped riders can use the Late Join feature to
+  rejoin. If you find that the team you selected is either too fast or too
+  slow for your pace\, you can switch teams within the first 30 minutes of
+  the start time of the team/category you would like to join..\n\nWe do not
+  sweep during the first 30 minutes of a ride. If you fall behind for any
+  reason during this time\, we recommend using the Late Join feature. We
+  usually do not have designated sweepers (Red Beacon). After the first 30
+  minutes\, if you get dropped and want to rejoin your team\, please send a
+  message in the format HELP(X)\, where X is the number of seconds you are
+  off the back (for example\, HELP5). If you reach out early\, one or more
+  stronger riders may come to assist you.\n\nWe look forward to having you
+  join us. It will be an excellent endurance adventure!\n\n**Connect With
+  Us on Any of the Following Platforms!**  \n- BMTR Faster Masters
+  Facebook: https://www.facebook.com/groups/2286721591625605\n- BMTR
+  Facebook: https://www.facebook.com/groups/bmtrzwiftclub\n- Strava:
+  https://www.strava.com/clubs/BMTRZwiftClub\n- Zwift:
+  https://www.zwift.com/clubs/BMTR/home\n- Instagram:
+  https://instagram.com/bmtr_zwift/\n\n**Discover All 9 Weekly BMTR Events
+  Here**  \n- https://bmtr.events
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/bmtr_club_rid
+ e_2021jun.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

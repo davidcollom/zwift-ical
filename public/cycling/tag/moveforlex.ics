@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117395
+SUMMARY:[Watopia] Move for Lex							 							
+LOCATION:Watopia
+DESCRIPTION:The Move for Lex workout honors avid Zwifter and cyclist Alexa
+  Leary\, who was seriously injured in a bike crash in July 2021. \n\nLex
+  was one of Australia’s top emerging junior triathletes at the time of
+  her accident and is now facing months of rehabilitation. \n\nThe
+  #moveforlex movement is all about moving for those who can't and we'd
+  love to see a huge group moving for Lex here every Friday for a
+  workout.\n\nFor more information on the Move For Lex movement visit
+  https://www.moveforlex.com/
+DTSTART:00010101T000000Z
+DTEND:00010101T003000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/partners/alexa_move
+ _for_lex_partner_ride_2021sept.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

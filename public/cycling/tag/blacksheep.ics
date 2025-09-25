@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117389
+SUMMARY:[London]  Black Sheep Black Friday Workout
+LOCATION:London
+DESCRIPTION:The BLACK FRIDAY WORKOUT\n\nIt’s always time for a workout
+  ride somewhere! So we are flipping Black Friday on its head. We are
+  Aussies\, after all. The Black Friday will be a morning workout for
+  locals. A night before workout for Euro’s and somewhere in between for
+  our friends in America.\n\nBlack Friday Workout is a pure social workout
+  at its best. We usually end with a beer\, so let’s make it a coffee.
+  And hey\, why don’t we throw in a new kit as well. Finish the workout
+  to unlock your very own Black Sheep Racing Club kit in-game.\n\nJoin us
+  for the Black Friday Workout each Friday at 6:30 am AEST.
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/groups/ldn_grp_10.j
+ pg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

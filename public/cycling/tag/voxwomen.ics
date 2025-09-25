@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5102140
+SUMMARY:[France] Voxwomen Club Ride
+LOCATION:France
+DESCRIPTION:Join us for our community ride alongside our team of Voxwomen
+  Ambassadors. The theme of our rides follows our mission as an
+  organization: to inspire\, encourage\, and support. Settle in for 40-60
+  minutes of riding\, you won’t get dropped as we have the rubberband
+  feature in place to keep the group together - this means you can ride as
+  hard or as easy as you want\, but will still be riding with the group!
+  This ride is designed to get as many people together riding and enjoying
+  the ride. Hope to see you on the roads of Zwift! \n\n 
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/partners/voxwomen_p
+ lusmen_ride_2021may.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

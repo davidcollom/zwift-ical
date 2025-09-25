@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117345
+SUMMARY:[Watopia] GTN Kit Unlock Ride
+LOCATION:Watopia
+DESCRIPTION:You asked\, and we heard you! Time to unlock that much
+  sought-after kit as worn by Mark\, Heather\, James... and now you! This
+  is a casual 30 minute group ride and all you need to do is ride at your
+  own pace and finish the event to unlock the GTN jersey -
+  easy!							\n							\n							\n							
+DTSTART:00010101T000000Z
+DTEND:00010101T003000Z
+URL:https://cdn.zwift.com/club-images/EVENT/75af7a00-da9f-4f78-9cb0-9979ede
+ a8d6f
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

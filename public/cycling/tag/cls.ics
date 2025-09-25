@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117322
+SUMMARY:[France] Team CLS High 'n' Low
+LOCATION:France
+DESCRIPTION:Workout Link - https://www.teamclscc.co.uk/workouts/\n\nCome
+  and Join Team CLS...Thursday tends to be our regular HIT session of\nthe
+  week. We run a double draft to help you a bit but lose the group and\nyou
+  will never get back on so keep focussed !!!!\n\nOur Tuesday and Thursday
+  workouts compliment each other and if you stick\nwith it you will see
+  steady gains in fitness over the months\, with great\nbanter at the same
+  time.\n\nRemember to go to https://www.teamclscc.co.uk/workouts where you
+  can view /\ndownload information on the workout with all leader calls. We
+  always allow\nthe leaders to add their twist to things though as they try
+  to work with\nthe group so keep focussed.\n\nTEAM CLS LINKS\nWe have
+  several useful links below but you have to click here and check
+  out\nwww.teamclscc.co.uk ...find out about our events and leaders\, or
+  visit our\nOnline SHOP where you can buy our amazing Vermarc kit to ride
+  indoors or\nout.\n\nTeam CLS Online Shop -
+  https://www.teamclscc.co.uk/shop\nTeam CLS Workouts -
+  https://www.teamclscc.co.uk/workouts\nTeam CLS website -
+  https://www.teamclscc.co.uk\nFacebook Club Site -
+  https://www.facebook.com/groups/teamclscc\nFacebook Racing Site -
+  https://www.facebook.com/groups/teamclsracing\nFacebook Wellbeing Site -
+  https://www.facebook.com/groups/teamclswellbeing\nZwift Power Team -
+  https://www.zwiftpower.com/team.php?id=1426\nStrava Club Site -
+  https://www.strava.com/clubs/teamclscc\nYouTube Channel
+  -\nhttps://www.youtube.com/channel/UCo71ZiTebVwG0-c1Or9VTzQ?sub_confirmat
+ ion=\n\nWEEKLY PROGRAM\nMon 18:30 UK - Fast 'n' Furious Race Day\nTues
+  18:50 UK - This ‘n’ That - Endurance Training\nWed 18:50 UK - Badge
+  Hunters Club Rideout\nThur 18:50 UK - High ‘n’ Low - Interval
+  Training\nSat 14:45 UK - Vocal ‘n’ Social PM Club Rideout\nSun 18:50
+  UK - Chill 'n' Spin - Weekend Social\n\nSee you down the Road.......'Team
+  CLS'
+DTSTART:00010101T000000Z
+DTEND:00010101T011000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/cls.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

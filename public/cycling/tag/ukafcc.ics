@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117347
+SUMMARY:[New York] UK Armed Forces Cycling Community Race Night
+LOCATION:New York
+DESCRIPTION:We are back being "in the chop" is an Aussie expression that
+  you won't read about in the UCI rulebook. It's one of the many nuances of
+  bike racing that only comes with experience.\n\nSometimes when you're in
+  a race and find yourself in the final break-away bunch you might get
+  asked "are we in the chop?" or "are we chopping it?". This is referring
+  to collusion between the lead riders to work together until the finish.
+  Many times a break-away will be doomed in the final kilometres because
+  everyone starts playing cat and mouse\, attacking\, sitting up\,
+  etc.\n\nBut all that goes out the window in the last lap. This is
+  generally where the group comes together and the final push begins.
+  Working together goes out the window and is every man or woman for
+  themselves for the final sprint to the line.\n\nThe Chop is a flat fast
+  time-based handicap race. Do you always get blown out the back on the
+  start of a multi grade race trying to hang onto the guy going with A
+  grade pushing 5w/kg. Well not on The Chop. Released in Grades there are
+  time splits from D to A with the intention of all coming together at the
+  end for the big finish. Each Grade wears a different Zwift kit making
+  each grade easily identifiable on who's wheel you want to catch if they
+  go past.\n\nRaces happen on Tuesday evenings. We plan to add further
+  races in the future. No single race has been the same. Many variables are
+  at play on The Chop including course (which is generally a flat course)\,
+  race numbers\, and the inevitable sandbaggers. It has been called a team
+  time trail and cat and mouse but the real racers know it only as "THE
+  CHOP". Do you have what it takes to take the glory?\n\n\nUKAFCC
+  @UKAFCycling\nhttps://www.facebook.com/ukafcycling/\n\nRoyal Navy Royal
+  Marines Cycling Association
+  @RNRMCA\nhttps://www.facebook.com/RNRMCA/\n\nArmy Cycling
+  @armycycling\nhttps://www.facebook.com/armycycling/\n\nRAF Cycling
+  Association @RAFCycling\nhttps://www.facebook.com/RAFCycling
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/groups/nyc_grp_6.jp
+ g
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

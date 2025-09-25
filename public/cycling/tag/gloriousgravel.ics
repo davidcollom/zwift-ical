@@ -1,0 +1,24 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117315
+SUMMARY:[Watopia] Glorious Cycling Club
+LOCATION:Watopia
+DESCRIPTION:Welcome to our second Glorious Cycling Club chase race. This is
+  a fun a social handicap race where riders in each category (A\, B\, C\, D
+  & E) will work together to chase/stay away from the other categories.
+  With the help of a coach on Discord we'll get you working seamlessly
+  together. There can only be one race winner\, however\, so eventually it
+  will be every rider for themselves across the finish line! This race is
+  not part of the Glorious Cycling Club racing league and so there are no
+  league points available. It's just for fun!
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/special/yumezi_race
+ _ride_2021may.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

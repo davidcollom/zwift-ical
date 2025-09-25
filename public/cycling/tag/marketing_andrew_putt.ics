@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117987
+SUMMARY:[France] BMC/Walmart Cycling Club Social
+LOCATION:France
+DESCRIPTION:Join the BMC/Walmart Cycling Club for a spirited group ride on
+  this frozen arctic-blast night! (For much of the USA\, at least) This is
+  a social ride\, with some spice. It is all about fun. Feel free to fly
+  but it is more fun to ride together. Beacon will maintain prescribed pace
+  with the potential for a few spicy moments. Sweepers will be back. All
+  will be keeping the good vibes strong!\nThe BMC / Walmart Cycling Team
+  was born to promote fitness through cycling in NWA. We are a group of
+  enthusiasts cyclists and professional racers participating in all the
+  different disciplines cycling has to offer. BMC is a cycling club located
+  in and around Northwest Arkansas formed in 1979 by among others\, the
+  late Joe Martin. We are roadies\, mountain bikers\, tandem riders\,
+  tri-athletes\, unicyclists\, etc. We ride bicycles and that’s our
+  “community”. Visit http://www.ridebmc.com to learn more or to join
+  the club!
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/partners/BMC_Walmar
+ t_ride_2022feb.jpg.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

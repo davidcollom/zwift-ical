@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117413
+SUMMARY:[Paris] Epic Run Crew: Thursday Thunder 
+LOCATION:Paris
+DESCRIPTION:It’s nearing the end of the work week. Perhaps it’s time to
+  pick up the pace and go for it? Bring on the thunderous feet!\n\nThis is
+  a 45 minute group run. You are welcome to run at your own pace (AYOP).
+  Feel free to continue running after you finish the 45 minutes\, or end it
+  early. It’s up to you.\n\nChatting is encouraged! Talk about food. Make
+  a funny observation. Whatever. We don’t judge. Just have some
+  fun!\n\nEpic Run Crew is based in Vancouver\, BC\, Canada. We were
+  founded as an in-person club in 2021 and then joined Zwift in June
+  2022.\n\nUse the Zwift Companion app to join the Epic Run Crew club\, for
+  access to exclusive member-only group runs.\n\nFacebook:
+  https://www.facebook.com/epicruncrew2/\nInstagram: @epicruncrew
+DTSTART:00010101T000000Z
+DTEND:00010101T004500Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/Epic-july-202
+ 5.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

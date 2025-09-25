@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5110118
+SUMMARY:[Paris] SCANNELLATORI SERIALI RACE
+LOCATION:Paris
+DESCRIPTION:Welcome to the Thursday race offered by Scannellatori
+  Seriali.\n\nThis event might be part of a league.\nFor detailed event
+  description\, please refer to Zwiftpower.\n\nYou can also find useful
+  information about our zwift team on discord and
+  facebook:\nhttps://discord.gg/wpBdePTabV\nhttps://www.facebook.com/groups
+ /1122478121440050/\n\nIf you are looking for a Virtual Team or a New
+  Jersey for your Zwift Collection send us a DM on Discord or on
+  Instagram:\nhttps://www.instagram.com/scannellatori_seriali/\n\nhttps://w
+ ww.facebook.com/scannellatoriseriali\nwww.scannellatoriseriali.com
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/club-images/EVENT/1a7179a8-9f10-4be4-b59d-d5e7734
+ 73409
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

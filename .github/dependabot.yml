@@ -21,11 +21,11 @@ updates:
       "Actions":
         patterns:
           - "*"
-  - package-ecosystem: "bundler" # See documentation for possible values
+  - package-ecosystem: "gomod" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
     groups:
-      "Ruby":
+      "Go Libraries":
         patterns:
           - "*"

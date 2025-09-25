@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5118013
+SUMMARY:[New York] The Zombie 5k
+LOCATION:New York
+DESCRIPTION:Brought to you from the NoblePro Running Club (NPRC) this event
+  is called the Zombie Run as for those in the UK this event is in the
+  middle of the night.\n\nWhether you are a beginner or experienced runner
+  come and join\, you can run at whatever pace you like\, it's not a
+  race.\nIf you don't want to run 5k then come along for as long as you
+  wish\, the support is always appreciated.\nThe event runs at the same
+  time each day\, Tuesday to Saturday and each day there is a different
+  course.\n\nNoblePro: - We are a team focused on elevating running through
+  our treadmills and digital platforms. We create treadmills loved by
+  runners and the wider running community for quality engineered hardware
+  features and advanced software integration to give you the freedom to
+  train with the apps you love.\nhttps://www.noble-pro.com/\n\nKinni:- In a
+  fitness world where treadmill bluetooth integration can be a confusing
+  place\, we aim to provide you with the ability to effortlessly connect.
+  You can run structured treadmill workouts\, connect and integrate with
+  your favourite bluetooth fitness apps such as Zwift\, Rouvy\, Kinomaps
+  and many more. We are focused on progress and advancement in
+  integration\, connectivity and
+  control.\nhttps://kinni.co/\n\nhttps://kinni.co/devices/ - To see if your
+  treadmill is compatible to link to Zwift.\n\nFollow Stuart on Strava -
+  https://www.strava.com/athletes/2480515\n\nJoin the NoblePro Running Club
+  (NPRC) -
+  https://www.zwift.com/clubs/e7829ccd-bce4-4244-9ccf-4cdc3ef148ff/home
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/run-10K-a-day
+ -jan-2025.png
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

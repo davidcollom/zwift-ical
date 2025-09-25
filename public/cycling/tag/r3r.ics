@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117266
+SUMMARY:[London] NoPinz R3R - Double Crit 1/2
+LOCATION:London
+DESCRIPTION:Welcome to this NoPinz R3R Race. The rules are
+  simple....\nPlease use ZwiftPower's Minimum Category on your profile for
+  race entry.\nCats A\, and B will require a power source (power meter or
+  smart trainer) and heart rate monitor.\nCat C will require power source
+  (power meter or smart trainer) and heart rate monitor for podium
+  spots.\nPodium finishers in Cat A are expected to dual (power) record and
+  to make analysis publicly available on ZwiftPower\; they must also be
+  using a direct drive trainer or power meter.\n**Elite level performances
+  are also expected to be supported by dual (power) recordings from
+  reputable power sources or easily verifiable outside data. This applies
+  to those with a history of such performances.\n** 5.2 w/kg (20 mins)\; 6
+  w/kg (5 mins)\; 9.8 w/kg (1 min)\nZwift Activities must be saved
+  publicly.\nPlease also maintain an open and active Strava profile to
+  facilitate organiser inquiry.\nPlease see http://www.zwiftpower.com for
+  finalised race results. The race is brought to you by NoPinz please visit
+  https://nopinz.com/product-tag/subzero/ All subzero kit can be custom
+  made in any design.
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/team3r.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+BEGIN:VEVENT
+UID:5117286
+SUMMARY:[France] NoPinz R3R - Double Crit 2/2
+LOCATION:France
+DESCRIPTION:Welcome to this NoPinz R3R Race. The rules are
+  simple....\nPlease use ZwiftPower's Minimum Category on your profile for
+  race entry.\nCats A\, and B will require a power source (power meter or
+  smart trainer) and heart rate monitor.\nCat C will require power source
+  (power meter or smart trainer) and heart rate monitor for podium
+  spots.\nPodium finishers in Cat A are expected to dual (power) record and
+  to make analysis publicly available on ZwiftPower\; they must also be
+  using a direct drive trainer or power meter.\n**Elite level performances
+  are also expected to be supported by dual (power) recordings from
+  reputable power sources or easily verifiable outside data. This applies
+  to those with a history of such performances.\n** 5.2 w/kg (20 mins)\; 6
+  w/kg (5 mins)\; 9.8 w/kg (1 min)\nZwift Activities must be saved
+  publicly.\nPlease also maintain an open and active Strava profile to
+  facilitate organiser inquiry.\nPlease see http://www.zwiftpower.com for
+  finalised race results. The race is brought to you by NoPinz please visit
+  https://nopinz.com/product-tag/subzero/ All subzero kit can be custom
+  made in any design.
+DTSTART:00010101T000000Z
+DTEND:00010101T000000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/team3r.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

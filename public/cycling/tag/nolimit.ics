@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117361
+SUMMARY:[Paris] No Limit CC SUPER SOCIAL THURSDAYS (GROUP RIDE)
+LOCATION:Paris
+DESCRIPTION:Your mid-week reset: Super Social Thursdays🚴🏾‍♀️. A
+  no-drop Group D ride at 1.8–2.2 w/kg. It’s steady\, it’s social\,
+  and it’s about keeping each other rolling. Expect teamwork\, banter\,
+  and a group ride that feels like the real road. Fence on so we all ride
+  as one.\n\nSetup Checklist: Fans on high. Towels handy. Plenty of fluids.
+  Wear your fav kit.\n\nVirtual Ride Tips: Hold a steady pace\, smoother
+  pedaling keeps the group together. Use in-ride chat to call out changes
+  or motivate. Stick to the yellow beacon\, don’t surge. Remember: this
+  isn’t a race\, it’s about rhythm and teamwork.
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/special/yumezi_grou
+ p_ride_2021may.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117304
+SUMMARY:[Watopia] Liv Velocity Social Ride
+LOCATION:Watopia
+DESCRIPTION:Summer time!\nPlanning April through September: some weeks
+  there will me NO Yellow to lead the Ride. Also there will be NO Red to
+  sweep the bunch.\nWe friendly ask you lovely ladies to be sociable\, from
+  groups with a accepteble pace and suppert each other.\nSometimes we will
+  check in for a nice chat and see how the summer is in your country
+  \;)\n\nVery important!\nEnjoy the rides and have a great summer.\nHope to
+  see you all again in October.\n\n-Team Liv-Velocity Ladies-
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/partners/liv_2022ja
+ n.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR

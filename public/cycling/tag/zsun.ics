@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:Zwift Calendar - by David Collom
+METHOD:REQUEST
+BEGIN:VEVENT
+UID:5117386
+SUMMARY:[France] ZSUN vFUN Social Ride - 1.7-1.9 w/kg
+LOCATION:France
+DESCRIPTION:Join ZSUN for our weekly vFUN Social Ride – a relaxed\,
+  supportive event perfect for spinning into the weekend. This steady-paced
+  ride (1.7–1.9 w/kg) is all about good vibes\, easy chat\, and enjoying
+  the ride with fellow Zwifters.\n\n☀️\nExpect laughs\, friendships\,
+  and plenty of encouragement. The yellow beacon will hold to the
+  advertised pace\, no matter the course. Wear the iconic #redshorts and
+  feel part of the team!\n\n🗓️\nWeekly | Friendly chat encouraged |
+  Everyone welcome\n\n🎧\nJoin Discord to chat or just listen
+  in\n\n🎁\nComplete the ride to earn your ZSUN kit\n\nPut on your
+  favourite playlist\, spin those legs\, and celebrate cycling in a fun\,
+  inclusive space.
+DTSTART:00010101T000000Z
+DTEND:00010101T010000Z
+URL:https://cdn.zwift.com/static/events_headers/cycling/clubs/zsun.jpg
+CLASS:PUBLIC
+LAST-MODIFIED:20250925T153049Z
+END:VEVENT
+END:VCALENDAR
