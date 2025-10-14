@@ -18,9 +18,9 @@ func EventsToICal(events []events.Event) string {
 		ev.SetLocation(worldName(e))
 		ev.SetDescription(e.Description)
 		// Set start and end times
-		start, _ := time.Parse(time.RFC3339, e.EventStart)
-		ev.SetStartAt(start.UTC())
-		end := start.Add(time.Duration(e.DurationInSeconds) * time.Second)
+		// start, _ := time.Parse(time.ISO8601, e.EventStart)
+		ev.SetStartAt(e.EventStart.UTC())
+		end := e.EventStart.Add(time.Duration(e.DurationInSeconds) * time.Second)
 		ev.SetEndAt(end.UTC())
 		// Add URL/Image if available
 		if e.ImageUrl != "" {
