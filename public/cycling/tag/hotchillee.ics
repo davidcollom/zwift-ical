@@ -1,40 +1,0 @@
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:Zwift Calendar - by David Collom
-METHOD:REQUEST
-BEGIN:VEVENT
-UID:5117312
-SUMMARY:[Unknown]  Hotchillee Gain Train 
-LOCATION:Unknown
-DESCRIPTION:What is it?\nFirstly\, IT’S NOT A RACE but that doesn’t
-  mean it’s an easy pace no-drop ride. It’s a paced “Category +”
-  Hare and Hounds where you will be working predominately at the upper end
-  of your category and hanging on for as long as you can in search of those
-  gains.\n\nWhat are the paces?\nPaces are based on what the Ride Leader
-  for each group will average and our leaders are pretty accurate - check
-  on ZwiftPower afterwards.   Buffet Class (D+) Leader will average 2.4
-  w/kg (departs at 1830)\nSecond Class (C+) Leader average 3.1 w/kg
-  (departs at 1834)\nFirst Class (B+) Leader will average 3.7 w/kg (departs
-  at 1836)\n\nPlease do not push the pace faster than this\, it ruins it
-  for everyone - respect your Ride Leader\, do what they ask and don’t
-  sandbag.\n\nWill the groups catch each other?\nUsually we aim for there
-  to be a catch/merge in the final 5km or so but this does depend on the
-  course.\nIf a merge does happen\, stronger riders are encouraged to
-  “upgrade” to the faster group and\, if you’re struggling\, you can
-  also “downgrade” to a slower one.\n\nWhat if I get dropped?\nSuck it
-  up\, maybe find someone to spin home with and try to hang on a bit longer
-  next week - just like a IRL chain-gang\, that’s how you get
-  stronger.\n\nCan I push it at the end?\nWith about 3km to go\, your
-  Leader will give a Go! Go! Go! shout and then\, if you want\, you can
-  empty the tank.\n\n  What is Hotchillee?\nHotchillee is both an
-  events company that organises some of the world's best cycling events and
-  a cycling community. Check out the website for details of events\, rides
-  and to get involved www.hotchillee.com
-DTSTART:00010101T000000Z
-DTEND:00010101T000000Z
-URL:https://cdn.zwift.com/static/events_headers/cycling/partners/hotchillee
- s_ride_2021november.jpg
-CLASS:PUBLIC
-LAST-MODIFIED:20250925T153049Z
-END:VEVENT
-END:VCALENDAR

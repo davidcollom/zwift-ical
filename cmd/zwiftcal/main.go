@@ -57,6 +57,10 @@ func Run() error {
 	if err := site.RenderIndexLinks(icalLinks, indexOutput); err != nil {
 		return err
 	}
+	redirectsOutput := filepath.Join(publicDir, "_redirects")
+	if err := site.GenerateRedirects(icalLinks, redirectsOutput); err != nil {
+		return err
+	}
 
 	log.Println("All iCal files and static site generated in public/")
 	return nil
@@ -78,7 +82,7 @@ func groupEventsBySport(eventsList []events.Event) map[string][]events.Event {
 // ensureSportDirs creates necessary directories for each sport.
 func ensureSportDirs(sportMap map[string][]events.Event) error {
 	for sport := range sportMap {
-		for _, sub := range []string{"rides", "workouts", "races", "tag"} {
+		for _, sub := range []string{"rides", "runs", "workouts", "races", "tag"} {
 			dir := filepath.Join(publicDir, sport, sub)
 			if err := site.EnsureDir(dir); err != nil {
 				log.Printf("Error creating directory %s: %v", dir, err)
@@ -98,6 +102,14 @@ func generateICalFiles(sportMap map[string][]events.Event) error {
 			"workouts": "GROUP_WORKOUT",
 			"races":    "RACE",
 		}
+		if sport == "running" {
+			types = map[string]string{
+				"runs":     "GROUP_RIDE",
+				"workouts": "GROUP_WORKOUT",
+				"races":    "RACE",
+			}
+		}
+
 		for typ, eventType := range types {
 			filtered := filterEventsByType(sportEvents, eventType)
 			icalData := ical.EventsToICal(filtered)

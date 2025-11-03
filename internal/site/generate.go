@@ -38,6 +38,21 @@ func RenderIndexLinks(paths []string, outputPath string) error {
 	return tmpl.Execute(f, paths)
 }
 
+func GenerateRedirects(icalLinks []string, outputPath string) error {
+	f, err := os.Create(outputPath)
+	if err != nil {
+		return err
+	}
+	defer f.Close()
+	for _, link := range icalLinks {
+		_, err := f.WriteString("/" + link[:len(link)-len(filepath.Ext(link))] + " /" + link + " 301\n")
+		if err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
 func WriteICal(icalData, outputPath string) error {
 	f, err := os.Create(outputPath)
 	if err != nil {

@@ -54,3 +54,17 @@ func TestRenderIndexLinks(t *testing.T) {
 		t.Errorf("Index file not created or empty")
 	}
 }
+
+func TestGenerateRedirects(t *testing.T) {
+	tmp := filepath.Join(os.TempDir(), "_redirects")
+	defer os.Remove(tmp)
+	paths := []string{"cycling/rides/events.ics", "running/races/events.ics"}
+	err := GenerateRedirects(paths, tmp)
+	if err != nil {
+		t.Fatalf("GenerateRedirects failed: %v", err)
+	}
+	data, err := os.ReadFile(tmp)
+	if err != nil || len(data) == 0 {
+		t.Errorf("Redirects file not created or empty")
+	}
+}
