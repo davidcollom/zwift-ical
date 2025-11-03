@@ -11,9 +11,11 @@ var mapIDs = []string{
 	"Bologna TT",
 	"Yorkshire",
 	"Crit City",
+	"Makuri Islands",
 	"France",
 	"Paris",
-	"Makuri Islands",
+	"Gravel Mountain",
+	"Scotland",
 }
 
 func worldName(e events.Event) string {
