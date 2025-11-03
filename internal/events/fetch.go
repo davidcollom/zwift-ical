@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"strings"
 	"time"
 
 	retryablehttp "github.com/hashicorp/go-retryablehttp"
@@ -37,7 +38,7 @@ func FetchEvents(limit int, tag string) (events []Event, err error) {
 			filtered = append(filtered, e)
 		}
 	}
-	events = filtered
+	events = cleanNames(filtered)
 	return events, err
 }
 
@@ -75,4 +76,11 @@ func fetchEvents(limit int, tag string, start int) ([]Event, error) {
 		return nil, err
 	}
 	return events, nil
+}
+
+func cleanNames(events []Event) []Event {
+	for i := range events {
+		events[i].Name = strings.TrimSpace(events[i].Name)
+	}
+	return events
 }
