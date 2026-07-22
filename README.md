@@ -134,4 +134,4 @@ Issues and pull requests are welcome. Please run `go test ./...` before submitti
 
 ## License
 
-See [LICENSE](LICENSE) if present, or contact the author.
+[MIT](LICENSE) © David Collom
