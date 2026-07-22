@@ -11,6 +11,9 @@ on:
     branches:
       - main
 
+permissions:
+  contents: read
+  
 # ONLY EVER RUN ONE
 concurrency: ${{ github.workflow }}
 
