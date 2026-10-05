@@ -3,9 +3,9 @@ module github.com/davidcollom/zwift-ical
 go 1.24.5
 
 require (
-	github.com/arran4/golang-ical v0.3.6
+	github.com/arran4/golang-ical v0.3.7
 	github.com/hashicorp/go-retryablehttp v0.7.8
-	github.com/relvacode/iso8601 v1.8.0
+	github.com/relvacode/iso8601 v1.8.1
 	github.com/stretchr/testify v1.12.1
 )
 
